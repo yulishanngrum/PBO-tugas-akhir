@@ -12,3 +12,5 @@ public class koneksi {
     public Connection con;
      public Statement stm;
     
+
+}
