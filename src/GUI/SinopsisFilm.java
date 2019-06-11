@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package GUI;
-
+import Classes.Sinopsis;
 
 
 /**
@@ -23,6 +23,9 @@ public class SinopsisFilm extends javax.swing.JFrame {
     private String harga;
     private String hargavip;
     private String sinopsis;
+    
+    //objek untuk mengambil isi array di Kelas sinopsis Package Classes
+    Sinopsis sin = new Sinopsis();
     
 
     
@@ -214,21 +217,29 @@ public class SinopsisFilm extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        //mengambil isi array dan menampilkan ke text area
+        jTextArea1.setText(sin.getSinopsisfilm());
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:\
+        //mengambil isi array dan menampilkan ke text area
+        jTextArea1.setText(sin.getSinopsisfilm1());
 
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        //mengambil isi array dan menampilkan ke text area
+        jTextArea1.setText(sin.getSinopsisfilm2());
 
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
+        //mengambil isi array dan menampilkan ke text area
+        jTextArea1.setText(sin.getSinopsisfilm3());
 
     }//GEN-LAST:event_jButton4ActionPerformed
 
