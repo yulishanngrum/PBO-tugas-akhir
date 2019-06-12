@@ -5,6 +5,7 @@
  */
 package GUI;
 import Classes.Sinopsis;
+import Classes.Judul;
 
 
 /**
@@ -26,6 +27,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
     
     //objek untuk mengambil isi array di Kelas sinopsis Package Classes
     Sinopsis sin = new Sinopsis();
+    Judul jud = new Judul();
     
 
     
@@ -219,6 +221,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
         // TODO add your handling code here:
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm());
+        jTextField1.setText(jud.getJudulfilm());
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -226,6 +229,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
         // TODO add your handling code here:\
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm1());
+        jTextField1.setText(jud.getJudulfilm1());
 
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -233,6 +237,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
         // TODO add your handling code here:
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm2());
+        jTextField1.setText(jud.getJudulfilm2());
 
     }//GEN-LAST:event_jButton3ActionPerformed
 
@@ -240,6 +245,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
         // TODO add your handling code here:
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm3());
+        jTextField1.setText(jud.getJudulfilm3());
 
     }//GEN-LAST:event_jButton4ActionPerformed
 
