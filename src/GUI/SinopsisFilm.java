@@ -229,7 +229,9 @@ public class SinopsisFilm extends javax.swing.JFrame {
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm());
         jTextField1.setText(jud.getJudulfilm());
-
+        //memanggil array pada kelas Harga dan HargaVip
+        jTextField2.setText(har.getHargafilm());
+        jTextField3.setText(harV.getHargafilm());
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -237,7 +239,8 @@ public class SinopsisFilm extends javax.swing.JFrame {
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm1());
         jTextField1.setText(jud.getJudulfilm1());
-
+        jTextField2.setText(har.getHargafilm1());
+        jTextField3.setText(harV.getHargafilm1());
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -245,7 +248,8 @@ public class SinopsisFilm extends javax.swing.JFrame {
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm2());
         jTextField1.setText(jud.getJudulfilm2());
-
+        jTextField2.setText(har.getHargafilm2());
+        jTextField3.setText(harV.getHargafilm2());
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -253,7 +257,8 @@ public class SinopsisFilm extends javax.swing.JFrame {
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm3());
         jTextField1.setText(jud.getJudulfilm3());
-
+        jTextField2.setText(har.getHargafilm3());
+        jTextField3.setText(harV.getHargafilm3());
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**

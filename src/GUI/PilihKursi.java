@@ -19,6 +19,7 @@ public class PilihKursi extends javax.swing.JFrame {
     //Penambahan 2 jenis kursi, butuh kelas untuk harga kursi VIP
     private String hargafix;//harga yg dipilih
     private String simpanhargavip;//harga kursi vip
+    
     //parameter untuk menyimpan string judul, harga, hargavip ke form ini
     public PilihKursi(String judul, String harga, String hargavip) {
         initComponents();
@@ -516,42 +517,50 @@ public class PilihKursi extends javax.swing.JFrame {
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A1");
         nomorkursi = jButton1.getText();
+        //kursi biasa menampilkan harga pada kelas Harga
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A2");
         nomorkursi = jButton2.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A3");
         nomorkursi = jButton3.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A4");
         nomorkursi = jButton4.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A5");
         nomorkursi = jButton5.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A6");
         nomorkursi = jButton6.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A7");
         nomorkursi = jButton7.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
@@ -564,168 +573,197 @@ public class PilihKursi extends javax.swing.JFrame {
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A9");
         nomorkursi = jButton9.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B1");
         nomorkursi = jButton15.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B2");
         nomorkursi = jButton16.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B3");
         nomorkursi = jButton17.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B4");
         nomorkursi = jButton18.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B5");
         nomorkursi = jButton10.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B6");
         nomorkursi = jButton11.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B7");
         nomorkursi = jButton12.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B8");
         nomorkursi = jButton13.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan B9");
         nomorkursi = jButton14.getText();
+        hargafix = simpanharga;
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C1");
         nomorkursi = jButton24.getText();
+        //kursi biasa menampilkan harga pada kelas HargaVip (anak kelas Harga)
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C2");
         nomorkursi = jButton25.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton25ActionPerformed
 
     private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C3");
         nomorkursi = jButton26.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton26ActionPerformed
 
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C4");
         nomorkursi = jButton27.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton27ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C5");
         nomorkursi = jButton19.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C6");
         nomorkursi = jButton20.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C7");
         nomorkursi = jButton21.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C8");
         nomorkursi = jButton22.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan C9");
         nomorkursi = jButton23.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton23ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D1");
         nomorkursi = jButton33.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton33ActionPerformed
 
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D2");
         nomorkursi = jButton34.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton34ActionPerformed
 
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D3");
         nomorkursi = jButton35.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton35ActionPerformed
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D4");
         nomorkursi = jButton36.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton36ActionPerformed
 
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D5");
         nomorkursi = jButton28.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton28ActionPerformed
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D6");
         nomorkursi = jButton29.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton29ActionPerformed
 
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D7");
         nomorkursi = jButton30.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton30ActionPerformed
 
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D8");
         nomorkursi = jButton31.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton31ActionPerformed
 
     private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan D9");
         nomorkursi = jButton32.getText();
+        hargafix = simpanhargavip;
     }//GEN-LAST:event_jButton32ActionPerformed
 
     /**
