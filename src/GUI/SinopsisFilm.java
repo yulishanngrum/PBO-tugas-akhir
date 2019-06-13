@@ -6,7 +6,8 @@
 package GUI;
 import Classes.Sinopsis;
 import Classes.Judul;
-
+import Classes.Harga;
+import Classes.HargaVip;
 
 /**
  *
@@ -28,7 +29,8 @@ public class SinopsisFilm extends javax.swing.JFrame {
     //objek untuk mengambil isi array di Kelas sinopsis Package Classes
     Sinopsis sin = new Sinopsis();
     Judul jud = new Judul();
-    
+    Harga har = new Harga();
+    HargaVip harV = new HargaVip();
 
     
     public SinopsisFilm() {
@@ -213,7 +215,12 @@ public class SinopsisFilm extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-
+        judul = jTextField1.getText();
+        harga = jTextField2.getText();
+        hargavip = jTextField3.getText();
+        sinopsis = jTextArea1.getText();
+        PilihKursi kursi = new PilihKursi(judul,harga,hargavip);
+        kursi.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
 

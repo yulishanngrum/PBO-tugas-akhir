@@ -17,13 +17,15 @@ public class PilihKursi extends javax.swing.JFrame {
     private String simpanharga;
     private String nomorkursi;
     //Penambahan 2 jenis kursi, butuh kelas untuk harga kursi VIP
-    
-    public PilihKursi(String judul, String harga) {
+    private String hargafix;//harga yg dipilih
+    private String simpanhargavip;//harga kursi vip
+    //parameter untuk menyimpan string judul, harga, hargavip ke form ini
+    public PilihKursi(String judul, String harga, String hargavip) {
         initComponents();
         setLocationRelativeTo(this);
         this.simpanjudul = judul;
         this.simpanharga = harga;
-        
+        this.simpanhargavip = hargavip;
     }
 
     public PilihKursi() {

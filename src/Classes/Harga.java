@@ -7,8 +7,9 @@ package Classes;
 
 /**
  *
- * @author niken
+ * @author alwin
  */
+//override dan buat kelas anak HargaVip
 public class Harga {
     protected String[] hargafilm = {"30000","35000","32000","34000"};
 
