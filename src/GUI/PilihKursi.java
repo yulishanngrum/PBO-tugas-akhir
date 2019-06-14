@@ -507,9 +507,8 @@ public class PilihKursi extends javax.swing.JFrame {
 
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
         // TODO add your handling code here:
-        
-        
-
+        NotaPesan nota = new NotaPesan(simpanjudul, hargafix, nomorkursi);
+        nota.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton37ActionPerformed
 
