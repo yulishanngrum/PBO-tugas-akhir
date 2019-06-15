@@ -10,7 +10,7 @@ package Classes;
  * @author niken
  */
 public class Judul {
-    private String[] judulfilm = {"Avenger Ends Game","Brighburn","Aladdin","Justice League"};
+    private String[] judulfilm = {"Avenger Ends Game","Brightburn","Aladdin","Justice League"};
 
     public String getJudulfilm() {
         return judulfilm[0];

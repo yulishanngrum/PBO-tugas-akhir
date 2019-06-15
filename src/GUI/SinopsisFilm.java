@@ -9,6 +9,7 @@ import Classes.Judul;
 import Classes.Harga;
 import Classes.HargaVip;
 
+
 /**
  *
  * @author Yunia
@@ -68,14 +69,16 @@ public class SinopsisFilm extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(102, 102, 102));
 
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\niken\\Documents\\brightburn.jpg")); // NOI18N
         jLabel1.setText("BrightBurn");
 
-        jLabel2.setText("Aladdin");
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\niken\\Documents\\alad1.png")); // NOI18N
 
-        jLabel3.setText("Justiceleuge");
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\niken\\Documents\\jus1.jpg")); // NOI18N
 
-        jLabel4.setText("Avenger");
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\niken\\Documents\\aveng1.jpg")); // NOI18N
 
         jButton1.setText("Info");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
