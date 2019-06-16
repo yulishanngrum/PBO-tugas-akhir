@@ -19,7 +19,7 @@ public class NotaPesan extends javax.swing.JFrame {
     public NotaPesan(String judul, String hargafix, String nomorkursi) {
         initComponents();
         setLocationRelativeTo(this);
-        jTextArea1.setText("ALWINEMAX\n\nJudul Film\t="+judul+"\nHarga\t="+hargafix+"\nKursi\t="+nomorkursi);
+        jTextArea1.setText("ALWINEMAX\n\n\nJudul Film\t= "+judul+"\n\nHarga\t= "+hargafix+"\n\nKursi\t= "+nomorkursi+"\n\n\nTerima Kasih");
         
     }
 
@@ -84,7 +84,7 @@ public class NotaPesan extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null,  "Tiket berhasil dipesan");
+        JOptionPane.showMessageDialog(null,  "Tiket berhasil dipesan\nSilakan geser ke kiri");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
