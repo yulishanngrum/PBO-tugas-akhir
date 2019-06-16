@@ -66,19 +66,24 @@ public class SinopsisFilm extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jButton5 = new javax.swing.JButton();
+        jLabel11 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(102, 102, 102));
-        setMinimumSize(new java.awt.Dimension(585, 392));
+        setMinimumSize(new java.awt.Dimension(600, 425));
         getContentPane().setLayout(null);
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/brightburn.jpg"))); // NOI18N
         jLabel1.setText("BrightBurn");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(205, 39, 110, 123);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/jus1.jpg"))); // NOI18N
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(205, 197, 110, 123);
+        jLabel3.setBounds(200, 200, 110, 130);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/aveng1.jpg"))); // NOI18N
         getContentPane().add(jLabel4);
         jLabel4.setBounds(65, 39, 110, 123);
 
@@ -89,7 +94,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(65, 168, 53, 23);
+        jButton1.setBounds(65, 168, 60, 23);
 
         jButton2.setText("Info");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -98,7 +103,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(205, 168, 53, 23);
+        jButton2.setBounds(205, 168, 60, 23);
 
         jButton3.setText("Info");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -107,7 +112,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(65, 338, 53, 23);
+        jButton3.setBounds(65, 338, 60, 23);
 
         jButton4.setText("Info");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -116,11 +121,11 @@ public class SinopsisFilm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(205, 338, 53, 23);
+        jButton4.setBounds(205, 338, 60, 23);
 
         jLabel5.setText("Judul");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(333, 93, 50, 14);
+        jLabel5.setBounds(333, 93, 60, 14);
         getContentPane().add(jTextField1);
         jTextField1.setBounds(425, 90, 140, 20);
         getContentPane().add(jTextField2);
@@ -142,7 +147,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
 
         jLabel9.setText("Sinopsis");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(333, 197, 38, 14);
+        jLabel9.setBounds(333, 197, 50, 14);
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -158,13 +163,15 @@ public class SinopsisFilm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton5);
-        jButton5.setBounds(504, 357, 61, 23);
+        jButton5.setBounds(480, 350, 80, 23);
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/alad1.png"))); // NOI18N
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(60, 200, 110, 130);
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/ini 2.jpeg"))); // NOI18N
         getContentPane().add(jLabel10);
         jLabel10.setBounds(0, 0, 580, 390);
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/ini 2.jpeg"))); // NOI18N
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 0, 590, 390);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -261,7 +268,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;

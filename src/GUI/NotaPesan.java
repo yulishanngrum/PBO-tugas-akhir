@@ -44,6 +44,7 @@ public class NotaPesan extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(466, 420));
         getContentPane().setLayout(null);
 
         jTextArea1.setColumns(20);
@@ -60,11 +61,11 @@ public class NotaPesan extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(338, 314, 98, 60);
+        jButton1.setBounds(338, 344, 98, 30);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/terakhir.jpeg"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 460, 400);
+        jLabel1.setBounds(0, 0, 470, 400);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

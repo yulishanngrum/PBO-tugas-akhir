@@ -32,7 +32,7 @@ public class TampilanAwal extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(600, 400));
+        setMinimumSize(new java.awt.Dimension(601, 430));
         getContentPane().setLayout(null);
 
         jButton1.setText("Buy Tickets Now");
