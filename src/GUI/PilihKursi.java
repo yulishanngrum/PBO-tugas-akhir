@@ -83,14 +83,21 @@ public class PilihKursi extends javax.swing.JFrame {
         jButton36 = new javax.swing.JButton();
         jButton37 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(591, 398));
+        getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel1.setText("Layar");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(271, 54, 50, 22);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel2.setText("VIP");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(284, 208, 28, 22);
 
         jButton1.setText("A1");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -98,6 +105,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton1);
+        jButton1.setBounds(24, 94, 45, 37);
 
         jButton2.setText("A2");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -105,6 +114,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton2);
+        jButton2.setBounds(87, 94, 45, 37);
 
         jButton3.setText("A3");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -112,6 +123,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton3);
+        jButton3.setBounds(150, 94, 45, 37);
 
         jButton4.setText("A4");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -119,6 +132,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton4);
+        jButton4.setBounds(213, 94, 45, 37);
 
         jButton5.setText("A5");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -126,6 +141,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton5);
+        jButton5.setBounds(276, 94, 45, 37);
 
         jButton6.setText("A6");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -133,6 +150,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton6);
+        jButton6.setBounds(339, 94, 45, 37);
 
         jButton7.setText("A7");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -140,6 +159,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton7ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton7);
+        jButton7.setBounds(402, 94, 45, 37);
 
         jButton8.setText("A8");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -147,6 +168,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton8ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton8);
+        jButton8.setBounds(465, 94, 45, 37);
 
         jButton9.setText("A9");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -154,6 +177,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton9);
+        jButton9.setBounds(528, 94, 45, 37);
 
         jButton10.setText("B5");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -161,6 +186,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton10);
+        jButton10.setBounds(276, 149, 45, 37);
 
         jButton11.setText("B6");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -168,6 +195,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton11);
+        jButton11.setBounds(339, 149, 45, 37);
 
         jButton12.setText("B7");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -175,6 +204,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton12ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton12);
+        jButton12.setBounds(402, 149, 45, 37);
 
         jButton13.setText("B8");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -182,6 +213,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton13ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton13);
+        jButton13.setBounds(465, 149, 45, 37);
 
         jButton14.setText("B9");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -189,6 +222,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton14ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton14);
+        jButton14.setBounds(528, 149, 45, 37);
 
         jButton15.setText("B1");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -196,6 +231,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton15ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton15);
+        jButton15.setBounds(24, 149, 45, 37);
 
         jButton16.setText("B2");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -203,6 +240,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton16ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton16);
+        jButton16.setBounds(87, 149, 45, 37);
 
         jButton17.setText("B3");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -210,6 +249,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton17ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton17);
+        jButton17.setBounds(150, 149, 45, 37);
 
         jButton18.setText("B4");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -217,6 +258,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton18ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton18);
+        jButton18.setBounds(213, 149, 45, 37);
 
         jButton19.setText("C5");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -224,6 +267,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton19ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton19);
+        jButton19.setBounds(276, 241, 45, 37);
 
         jButton20.setText("C6");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
@@ -231,6 +276,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton20ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton20);
+        jButton20.setBounds(339, 241, 45, 37);
 
         jButton21.setText("C7");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
@@ -238,6 +285,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton21ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton21);
+        jButton21.setBounds(402, 241, 45, 37);
 
         jButton22.setText("C8");
         jButton22.addActionListener(new java.awt.event.ActionListener() {
@@ -245,6 +294,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton22ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton22);
+        jButton22.setBounds(465, 241, 45, 37);
 
         jButton23.setText("C9");
         jButton23.addActionListener(new java.awt.event.ActionListener() {
@@ -252,6 +303,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton23ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton23);
+        jButton23.setBounds(528, 241, 45, 37);
 
         jButton24.setText("C1");
         jButton24.addActionListener(new java.awt.event.ActionListener() {
@@ -259,6 +312,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton24ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton24);
+        jButton24.setBounds(24, 241, 45, 37);
 
         jButton25.setText("C2");
         jButton25.addActionListener(new java.awt.event.ActionListener() {
@@ -266,6 +321,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton25ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton25);
+        jButton25.setBounds(87, 241, 45, 37);
 
         jButton26.setText("C3");
         jButton26.addActionListener(new java.awt.event.ActionListener() {
@@ -273,6 +330,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton26ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton26);
+        jButton26.setBounds(150, 241, 45, 37);
 
         jButton27.setText("C4");
         jButton27.addActionListener(new java.awt.event.ActionListener() {
@@ -280,6 +339,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton27ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton27);
+        jButton27.setBounds(213, 241, 45, 37);
 
         jButton28.setText("D5");
         jButton28.addActionListener(new java.awt.event.ActionListener() {
@@ -287,6 +348,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton28ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton28);
+        jButton28.setBounds(276, 296, 45, 37);
 
         jButton29.setText("D6");
         jButton29.addActionListener(new java.awt.event.ActionListener() {
@@ -294,6 +357,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton29ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton29);
+        jButton29.setBounds(339, 296, 45, 37);
 
         jButton30.setText("D7");
         jButton30.addActionListener(new java.awt.event.ActionListener() {
@@ -301,6 +366,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton30ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton30);
+        jButton30.setBounds(402, 296, 45, 37);
 
         jButton31.setText("D8");
         jButton31.addActionListener(new java.awt.event.ActionListener() {
@@ -308,6 +375,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton31ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton31);
+        jButton31.setBounds(465, 296, 45, 37);
 
         jButton32.setText("D9");
         jButton32.addActionListener(new java.awt.event.ActionListener() {
@@ -315,6 +384,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton32ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton32);
+        jButton32.setBounds(528, 296, 45, 37);
 
         jButton33.setText("D1");
         jButton33.addActionListener(new java.awt.event.ActionListener() {
@@ -322,6 +393,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton33ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton33);
+        jButton33.setBounds(24, 296, 45, 37);
 
         jButton34.setText("D2");
         jButton34.addActionListener(new java.awt.event.ActionListener() {
@@ -329,6 +402,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton34ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton34);
+        jButton34.setBounds(87, 296, 45, 37);
 
         jButton35.setText("D3");
         jButton35.addActionListener(new java.awt.event.ActionListener() {
@@ -336,6 +411,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton35ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton35);
+        jButton35.setBounds(150, 296, 45, 37);
 
         jButton36.setText("D4");
         jButton36.addActionListener(new java.awt.event.ActionListener() {
@@ -343,6 +420,8 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton36ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton36);
+        jButton36.setBounds(213, 296, 45, 37);
 
         jButton37.setText("Pesan");
         jButton37.addActionListener(new java.awt.event.ActionListener() {
@@ -350,157 +429,14 @@ public class PilihKursi extends javax.swing.JFrame {
                 jButton37ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton37);
+        jButton37.setBounds(512, 355, 61, 23);
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(24, 356, 171, 20);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(284, 284, 284)
-                        .addComponent(jLabel2))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton15)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton16)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton17)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton18)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton10)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton11)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton12)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton13)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton14))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton1)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton2)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton3)
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jButton4)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jButton5)))
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton6)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton7)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton8)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton9))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton33)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton34)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton35)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton36)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton28)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton29)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton30)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton31)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton32))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton24)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton25)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton26)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton27)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton19)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton20)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton21)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton22)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton23))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton37)))))
-                .addContainerGap(18, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(54, 54, 54)
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(22, 22, 22)
-                .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton27, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton29, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton31, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton37)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20))
-        );
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/ini 2.jpeg"))); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(0, 0, 590, 400);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -841,6 +777,7 @@ public class PilihKursi extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
