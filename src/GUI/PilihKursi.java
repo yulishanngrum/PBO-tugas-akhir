@@ -5,6 +5,9 @@
  */
 package GUI;
 
+import Classes.ArrayKursi;
+import java.awt.Color;
+
 /**
  *
  * @author Yunia
@@ -14,24 +17,105 @@ public class PilihKursi extends javax.swing.JFrame {
 
     //String yang nantinya digunakan untuk menyimpan data yangdisetujui pelanggan dari form SinopsisFilm 
     private String simpanjudul;
+    private int jumlahtiket;
     private String simpanharga;
     private String nomorkursi;
+    private int counter = 7;
+        private ArrayKursi chair = new ArrayKursi();
     //Penambahan 2 jenis kursi, butuh kelas untuk harga kursi VIP
     private String hargafix;//harga yg dipilih
     private String simpanhargavip;//harga kursi vip
     
     //parameter untuk menyimpan string judul, harga, hargavip ke form ini
-    public PilihKursi(String judul, String harga, String hargavip) {
+    public PilihKursi(String judul, int jumlah, String harga, String hargavip) {
         initComponents();
         setLocationRelativeTo(this);
         this.simpanjudul = judul;
+        this.jumlahtiket = jumlah;
         this.simpanharga = harga;
         this.simpanhargavip = hargavip;
+        this.counter = jumlahtiket;
+        jButton1.setBackground(Color.GREEN);
+        jButton2.setBackground(Color.GREEN);
+        jButton3.setBackground(Color.GREEN);
+        jButton4.setBackground(Color.GREEN);
+        jButton5.setBackground(Color.GREEN);
+        jButton6.setBackground(Color.GREEN);
+        jButton7.setBackground(Color.GREEN);
+        jButton8.setBackground(Color.GREEN);
+        jButton9.setBackground(Color.GREEN);
+        jButton10.setBackground(Color.GREEN);
+        jButton11.setBackground(Color.GREEN);
+        jButton12.setBackground(Color.GREEN);
+        jButton13.setBackground(Color.GREEN);
+        jButton14.setBackground(Color.GREEN);
+        jButton15.setBackground(Color.GREEN);
+        jButton16.setBackground(Color.GREEN);
+        jButton17.setBackground(Color.GREEN);
+        jButton18.setBackground(Color.GREEN);
+        jButton19.setBackground(Color.GREEN);
+        jButton20.setBackground(Color.GREEN);
+        jButton21.setBackground(Color.GREEN);
+        jButton22.setBackground(Color.GREEN);
+        jButton23.setBackground(Color.GREEN);
+        jButton24.setBackground(Color.GREEN);
+        jButton25.setBackground(Color.GREEN);
+        jButton26.setBackground(Color.GREEN);
+        jButton27.setBackground(Color.GREEN);
+        jButton28.setBackground(Color.GREEN);
+        jButton29.setBackground(Color.GREEN);
+        jButton30.setBackground(Color.GREEN);
+        jButton31.setBackground(Color.GREEN);
+        jButton32.setBackground(Color.GREEN);
+        jButton33.setBackground(Color.GREEN);
+        jButton34.setBackground(Color.GREEN);
+        jButton35.setBackground(Color.GREEN);
+        jButton36.setBackground(Color.GREEN);
+        
     }
 
     public PilihKursi() {
         initComponents();
-       
+        jButton1.setBackground(Color.GREEN);
+        jButton2.setBackground(Color.GREEN);
+        jButton3.setBackground(Color.GREEN);
+        jButton4.setBackground(Color.GREEN);
+        jButton5.setBackground(Color.GREEN);
+        jButton6.setBackground(Color.GREEN);
+        jButton7.setBackground(Color.GREEN);
+        jButton8.setBackground(Color.GREEN);
+        jButton9.setBackground(Color.GREEN);
+        jButton10.setBackground(Color.GREEN);
+        jButton11.setBackground(Color.GREEN);
+        jButton12.setBackground(Color.GREEN);
+        jButton13.setBackground(Color.GREEN);
+        jButton14.setBackground(Color.GREEN);
+        jButton15.setBackground(Color.GREEN);
+        jButton16.setBackground(Color.GREEN);
+        jButton17.setBackground(Color.GREEN);
+        jButton18.setBackground(Color.GREEN);
+        jButton19.setBackground(Color.GREEN);
+        jButton20.setBackground(Color.GREEN);
+        jButton21.setBackground(Color.GREEN);
+        jButton22.setBackground(Color.GREEN);
+        jButton23.setBackground(Color.GREEN);
+        jButton24.setBackground(Color.GREEN);
+        jButton25.setBackground(Color.GREEN);
+        jButton26.setBackground(Color.GREEN);
+        jButton27.setBackground(Color.GREEN);
+        jButton28.setBackground(Color.GREEN);
+        jButton29.setBackground(Color.GREEN);
+        jButton30.setBackground(Color.GREEN);
+        jButton31.setBackground(Color.GREEN);
+        jButton32.setBackground(Color.GREEN);
+        jButton33.setBackground(Color.GREEN);
+        jButton34.setBackground(Color.GREEN);
+        jButton35.setBackground(Color.GREEN);
+        jButton36.setBackground(Color.GREEN);
+    }
+
+    PilihKursi(String judul, String jumlah, String harga, String hargavip) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
@@ -45,7 +129,6 @@ public class PilihKursi extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
@@ -83,6 +166,7 @@ public class PilihKursi extends javax.swing.JFrame {
         jButton36 = new javax.swing.JButton();
         jButton37 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -99,15 +183,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(284, 208, 28, 22);
 
-        jButton1.setText("A1");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton1);
-        jButton1.setBounds(24, 94, 50, 37);
-
+        jButton2.setBackground(new java.awt.Color(51, 255, 0));
         jButton2.setText("A2");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,8 +191,9 @@ public class PilihKursi extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(87, 94, 50, 37);
+        jButton2.setBounds(90, 90, 50, 37);
 
+        jButton3.setBackground(new java.awt.Color(51, 255, 0));
         jButton3.setText("A3");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,7 +203,9 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton3);
         jButton3.setBounds(150, 94, 50, 37);
 
+        jButton4.setBackground(new java.awt.Color(51, 255, 0));
         jButton4.setText("A4");
+        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -135,6 +214,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton4);
         jButton4.setBounds(213, 94, 50, 37);
 
+        jButton5.setBackground(new java.awt.Color(51, 255, 0));
         jButton5.setText("A5");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,6 +224,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton5);
         jButton5.setBounds(276, 94, 50, 37);
 
+        jButton6.setBackground(new java.awt.Color(51, 255, 0));
         jButton6.setText("A6");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,6 +234,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton6);
         jButton6.setBounds(339, 94, 50, 37);
 
+        jButton7.setBackground(new java.awt.Color(51, 255, 0));
         jButton7.setText("A7");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,6 +244,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton7);
         jButton7.setBounds(402, 94, 50, 37);
 
+        jButton8.setBackground(new java.awt.Color(51, 255, 0));
         jButton8.setText("A8");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,6 +254,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton8);
         jButton8.setBounds(465, 94, 50, 37);
 
+        jButton9.setBackground(new java.awt.Color(51, 255, 0));
         jButton9.setText("A9");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -180,6 +264,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton9);
         jButton9.setBounds(528, 94, 50, 37);
 
+        jButton10.setBackground(new java.awt.Color(51, 255, 0));
         jButton10.setText("B5");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -189,6 +274,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton10);
         jButton10.setBounds(276, 149, 50, 37);
 
+        jButton11.setBackground(new java.awt.Color(51, 255, 0));
         jButton11.setText("B6");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,6 +284,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton11);
         jButton11.setBounds(339, 149, 50, 37);
 
+        jButton12.setBackground(new java.awt.Color(51, 255, 0));
         jButton12.setText("B7");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -207,6 +294,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton12);
         jButton12.setBounds(402, 149, 50, 37);
 
+        jButton13.setBackground(new java.awt.Color(51, 255, 0));
         jButton13.setText("B8");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,6 +304,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton13);
         jButton13.setBounds(465, 149, 50, 37);
 
+        jButton14.setBackground(new java.awt.Color(51, 255, 0));
         jButton14.setText("B9");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -225,6 +314,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton14);
         jButton14.setBounds(528, 149, 50, 37);
 
+        jButton15.setBackground(new java.awt.Color(51, 255, 0));
         jButton15.setText("B1");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,6 +324,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton15);
         jButton15.setBounds(24, 149, 50, 37);
 
+        jButton16.setBackground(new java.awt.Color(51, 255, 0));
         jButton16.setText("B2");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -243,6 +334,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton16);
         jButton16.setBounds(87, 149, 50, 37);
 
+        jButton17.setBackground(new java.awt.Color(51, 255, 0));
         jButton17.setText("B3");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,6 +344,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton17);
         jButton17.setBounds(150, 149, 50, 37);
 
+        jButton18.setBackground(new java.awt.Color(51, 255, 0));
         jButton18.setText("B4");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -261,6 +354,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton18);
         jButton18.setBounds(213, 149, 50, 37);
 
+        jButton19.setBackground(new java.awt.Color(51, 255, 0));
         jButton19.setText("C5");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -270,6 +364,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton19);
         jButton19.setBounds(276, 241, 50, 37);
 
+        jButton20.setBackground(new java.awt.Color(51, 255, 0));
         jButton20.setText("C6");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -279,6 +374,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton20);
         jButton20.setBounds(339, 241, 50, 37);
 
+        jButton21.setBackground(new java.awt.Color(51, 255, 0));
         jButton21.setText("C7");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -288,6 +384,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton21);
         jButton21.setBounds(402, 241, 50, 37);
 
+        jButton22.setBackground(new java.awt.Color(51, 255, 0));
         jButton22.setText("C8");
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -297,6 +394,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton22);
         jButton22.setBounds(465, 241, 50, 37);
 
+        jButton23.setBackground(new java.awt.Color(51, 255, 0));
         jButton23.setText("C9");
         jButton23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -306,6 +404,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton23);
         jButton23.setBounds(528, 241, 50, 37);
 
+        jButton24.setBackground(new java.awt.Color(51, 255, 0));
         jButton24.setText("C1");
         jButton24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -315,6 +414,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton24);
         jButton24.setBounds(24, 241, 50, 37);
 
+        jButton25.setBackground(new java.awt.Color(51, 255, 0));
         jButton25.setText("C2");
         jButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -324,6 +424,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton25);
         jButton25.setBounds(87, 241, 50, 37);
 
+        jButton26.setBackground(new java.awt.Color(51, 255, 0));
         jButton26.setText("C3");
         jButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -333,6 +434,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton26);
         jButton26.setBounds(150, 241, 50, 37);
 
+        jButton27.setBackground(new java.awt.Color(51, 255, 0));
         jButton27.setText("C4");
         jButton27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -342,6 +444,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton27);
         jButton27.setBounds(213, 241, 50, 37);
 
+        jButton28.setBackground(new java.awt.Color(51, 255, 0));
         jButton28.setText("D5");
         jButton28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -351,6 +454,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton28);
         jButton28.setBounds(276, 296, 50, 37);
 
+        jButton29.setBackground(new java.awt.Color(51, 255, 0));
         jButton29.setText("D6");
         jButton29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -360,6 +464,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton29);
         jButton29.setBounds(339, 296, 50, 37);
 
+        jButton30.setBackground(new java.awt.Color(51, 255, 0));
         jButton30.setText("D7");
         jButton30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -369,6 +474,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton30);
         jButton30.setBounds(402, 296, 50, 37);
 
+        jButton31.setBackground(new java.awt.Color(51, 255, 0));
         jButton31.setText("D8");
         jButton31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -378,6 +484,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton31);
         jButton31.setBounds(465, 296, 50, 37);
 
+        jButton32.setBackground(new java.awt.Color(51, 255, 0));
         jButton32.setText("D9");
         jButton32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -387,6 +494,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton32);
         jButton32.setBounds(528, 296, 50, 37);
 
+        jButton33.setBackground(new java.awt.Color(51, 255, 0));
         jButton33.setText("D1");
         jButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -396,6 +504,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton33);
         jButton33.setBounds(24, 296, 50, 37);
 
+        jButton34.setBackground(new java.awt.Color(51, 255, 0));
         jButton34.setText("D2");
         jButton34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -405,6 +514,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton34);
         jButton34.setBounds(87, 296, 50, 37);
 
+        jButton35.setBackground(new java.awt.Color(51, 255, 0));
         jButton35.setText("D3");
         jButton35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -414,6 +524,7 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jButton35);
         jButton35.setBounds(150, 296, 50, 37);
 
+        jButton36.setBackground(new java.awt.Color(51, 255, 0));
         jButton36.setText("D4");
         jButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -434,6 +545,16 @@ public class PilihKursi extends javax.swing.JFrame {
         getContentPane().add(jTextField1);
         jTextField1.setBounds(20, 350, 171, 20);
 
+        jButton1.setBackground(new java.awt.Color(51, 255, 0));
+        jButton1.setText("A1");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1);
+        jButton1.setBounds(20, 90, 50, 37);
+
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/ini 2.jpeg"))); // NOI18N
         getContentPane().add(jLabel3);
         jLabel3.setBounds(0, 0, 590, 400);
@@ -442,8 +563,9 @@ public class PilihKursi extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+        
         // TODO add your handling code here:
-        NotaPesan nota = new NotaPesan(simpanjudul, hargafix, nomorkursi);
+        NotaPesan nota = new NotaPesan(simpanjudul, jumlahtiket, simpanharga, simpanhargavip, nomorkursi, chair);
         nota.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton37ActionPerformed
@@ -454,6 +576,23 @@ public class PilihKursi extends javax.swing.JFrame {
         nomorkursi = jButton1.getText();
         //kursi biasa menampilkan harga pada kelas Harga
         hargafix = simpanharga;
+       
+        if(jButton1.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton1.setBackground(Color.red);
+                chair.tambahkursi("A1");
+            }
+            else{}
+            
+        }
+        else if(jButton1.getBackground().equals(Color.red)){
+            jButton1.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A1");
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -461,6 +600,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan A2");
         nomorkursi = jButton2.getText();
         hargafix = simpanharga;
+        if(jButton2.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton2.setBackground(Color.red);
+                chair.tambahkursi("A2");
+            }
+            else{}
+            
+        }
+        else if(jButton2.getBackground().equals(Color.red)){
+            jButton2.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A2");
+        }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -468,6 +623,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan A3");
         nomorkursi = jButton3.getText();
         hargafix = simpanharga;
+        if(jButton3.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton3.setBackground(Color.red);
+                chair.tambahkursi("A3");
+            }
+            else{}
+            
+        }
+        else if(jButton3.getBackground().equals(Color.red)){
+            jButton3.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A3");
+        }
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -475,6 +646,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan A4");
         nomorkursi = jButton4.getText();
         hargafix = simpanharga;
+        if(jButton4.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton4.setBackground(Color.red);
+                chair.tambahkursi("A4");
+            }
+            else{}
+            
+        }
+        else if(jButton4.getBackground().equals(Color.red)){
+            jButton4.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A4");
+        }
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
@@ -482,6 +669,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan A5");
         nomorkursi = jButton5.getText();
         hargafix = simpanharga;
+        if(jButton5.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton5.setBackground(Color.red);
+                chair.tambahkursi("A5");
+            }
+            else{}
+            
+        }
+        else if(jButton5.getBackground().equals(Color.red)){
+            jButton5.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A5");
+        }
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
@@ -489,6 +692,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan A6");
         nomorkursi = jButton6.getText();
         hargafix = simpanharga;
+        if(jButton6.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton6.setBackground(Color.red);
+                chair.tambahkursi("A6");
+            }
+            else{}
+            
+        }
+        else if(jButton6.getBackground().equals(Color.red)){
+            jButton6.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A6");
+        }
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
@@ -496,12 +715,45 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan A7");
         nomorkursi = jButton7.getText();
         hargafix = simpanharga;
+        if(jButton7.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton7.setBackground(Color.red);
+                chair.tambahkursi("A7");
+            }
+            else{}
+            
+        }
+        else if(jButton7.getBackground().equals(Color.red)){
+            jButton7.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A7");
+        }
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
         jTextField1.setText("Anda Memesan A8");
         nomorkursi = jButton8.getText();
+        hargafix = simpanharga;
+        if(jButton8.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton8.setBackground(Color.red);
+                chair.tambahkursi("A8");
+            }
+            else{}
+            
+        }
+        else if(jButton8.getBackground().equals(Color.red)){
+            jButton8.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A8");
+        }
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -509,6 +761,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan A9");
         nomorkursi = jButton9.getText();
         hargafix = simpanharga;
+        if(jButton9.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton9.setBackground(Color.red);
+                chair.tambahkursi("A9");
+            }
+            else{}
+            
+        }
+        else if(jButton9.getBackground().equals(Color.red)){
+            jButton9.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("A9");
+        }
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
@@ -516,6 +784,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B1");
         nomorkursi = jButton15.getText();
         hargafix = simpanharga;
+        if(jButton15.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton15.setBackground(Color.red);
+                chair.tambahkursi("B1");
+            }
+            else{}
+            
+        }
+        else if(jButton15.getBackground().equals(Color.red)){
+            jButton15.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B1");
+        }
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
@@ -523,6 +807,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B2");
         nomorkursi = jButton16.getText();
         hargafix = simpanharga;
+        if(jButton16.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton16.setBackground(Color.red);
+                chair.tambahkursi("B2");
+            }
+            else{}
+            
+        }
+        else if(jButton16.getBackground().equals(Color.red)){
+            jButton16.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B2");
+        }
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
@@ -530,6 +830,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B3");
         nomorkursi = jButton17.getText();
         hargafix = simpanharga;
+        if(jButton17.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton17.setBackground(Color.red);
+                chair.tambahkursi("B3");
+            }
+            else{}
+            
+        }
+        else if(jButton17.getBackground().equals(Color.red)){
+            jButton17.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B3");
+        }
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
@@ -537,6 +853,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B4");
         nomorkursi = jButton18.getText();
         hargafix = simpanharga;
+        if(jButton18.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton18.setBackground(Color.red);
+                chair.tambahkursi("B4");
+            }
+            else{}
+            
+        }
+        else if(jButton18.getBackground().equals(Color.red)){
+            jButton18.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B4");
+        }
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
@@ -544,6 +876,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B5");
         nomorkursi = jButton10.getText();
         hargafix = simpanharga;
+        if(jButton10.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton10.setBackground(Color.red);
+                chair.tambahkursi("B5");
+            }
+            else{}
+            
+        }
+        else if(jButton10.getBackground().equals(Color.red)){
+            jButton10.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B5");
+        }
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
@@ -551,6 +899,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B6");
         nomorkursi = jButton11.getText();
         hargafix = simpanharga;
+        if(jButton11.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton11.setBackground(Color.red);
+                chair.tambahkursi("B6");
+            }
+            else{}
+            
+        }
+        else if(jButton11.getBackground().equals(Color.red)){
+            jButton11.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B6");
+        }
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
@@ -558,6 +922,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B7");
         nomorkursi = jButton12.getText();
         hargafix = simpanharga;
+        if(jButton12.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton12.setBackground(Color.red);
+                chair.tambahkursi("B7");
+            }
+            else{}
+            
+        }
+        else if(jButton12.getBackground().equals(Color.red)){
+            jButton12.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B7");
+        }
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
@@ -565,6 +945,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B8");
         nomorkursi = jButton13.getText();
         hargafix = simpanharga;
+        if(jButton13.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton13.setBackground(Color.red);
+                chair.tambahkursi("B8");
+            }
+            else{}
+            
+        }
+        else if(jButton13.getBackground().equals(Color.red)){
+            jButton13.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B8");
+        }
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
@@ -572,6 +968,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan B9");
         nomorkursi = jButton14.getText();
         hargafix = simpanharga;
+        if(jButton14.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton14.setBackground(Color.red);
+                chair.tambahkursi("B9");
+            }
+            else{}
+            
+        }
+        else if(jButton14.getBackground().equals(Color.red)){
+            jButton14.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("B9");
+        }
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
@@ -580,6 +992,22 @@ public class PilihKursi extends javax.swing.JFrame {
         nomorkursi = jButton24.getText();
         //kursi biasa menampilkan harga pada kelas HargaVip (anak kelas Harga)
         hargafix = simpanhargavip;
+        if(jButton24.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton24.setBackground(Color.red);
+                chair.tambahkursi("C1");
+            }
+            else{}
+            
+        }
+        else if(jButton24.getBackground().equals(Color.red)){
+            jButton24.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C1");
+        }
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
@@ -587,6 +1015,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan C2");
         nomorkursi = jButton25.getText();
         hargafix = simpanhargavip;
+        if(jButton25.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton25.setBackground(Color.red);
+                chair.tambahkursi("C2");
+            }
+            else{}
+            
+        }
+        else if(jButton25.getBackground().equals(Color.red)){
+            jButton25.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C2");
+        }
     }//GEN-LAST:event_jButton25ActionPerformed
 
     private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
@@ -594,6 +1038,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan C3");
         nomorkursi = jButton26.getText();
         hargafix = simpanhargavip;
+        if(jButton26.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton26.setBackground(Color.red);
+                chair.tambahkursi("C3");
+            }
+            else{}
+            
+        }
+        else if(jButton26.getBackground().equals(Color.red)){
+            jButton26.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C3");
+        }
     }//GEN-LAST:event_jButton26ActionPerformed
 
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
@@ -601,6 +1061,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan C4");
         nomorkursi = jButton27.getText();
         hargafix = simpanhargavip;
+        if(jButton27.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton27.setBackground(Color.red);
+                chair.tambahkursi("C4");
+            }
+            else{}
+            
+        }
+        else if(jButton27.getBackground().equals(Color.red)){
+            jButton27.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C4");
+        }
     }//GEN-LAST:event_jButton27ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
@@ -608,6 +1084,23 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan C5");
         nomorkursi = jButton19.getText();
         hargafix = simpanhargavip;
+        if(jButton19.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton19.setBackground(Color.red);
+                chair.tambahkursi("C5");
+            }
+            else{}
+            
+        }
+        else if(jButton19.getBackground().equals(Color.red)){
+            jButton19.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C5");
+        }
+
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
@@ -615,6 +1108,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan C6");
         nomorkursi = jButton20.getText();
         hargafix = simpanhargavip;
+        if(jButton20.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton20.setBackground(Color.red);
+                chair.tambahkursi("C6");
+            }
+            else{}
+            
+        }
+        else if(jButton20.getBackground().equals(Color.red)){
+            jButton20.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C6");
+        }
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
@@ -622,6 +1131,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan C7");
         nomorkursi = jButton21.getText();
         hargafix = simpanhargavip;
+        if(jButton21.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton21.setBackground(Color.red);
+                chair.tambahkursi("C7");
+            }
+            else{}
+            
+        }
+        else if(jButton21.getBackground().equals(Color.red)){
+            jButton21.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C7");
+        }
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
@@ -629,6 +1154,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan C8");
         nomorkursi = jButton22.getText();
         hargafix = simpanhargavip;
+        if(jButton22.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton22.setBackground(Color.red);
+                chair.tambahkursi("C8");
+            }
+            else{}
+            
+        }
+        else if(jButton22.getBackground().equals(Color.red)){
+            jButton22.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C8");
+        }
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
@@ -636,6 +1177,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan C9");
         nomorkursi = jButton23.getText();
         hargafix = simpanhargavip;
+        if(jButton23.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton23.setBackground(Color.red);
+                chair.tambahkursi("C9");
+            }
+            else{}
+            
+        }
+        else if(jButton23.getBackground().equals(Color.red)){
+            jButton23.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("C9");
+        }
     }//GEN-LAST:event_jButton23ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
@@ -643,6 +1200,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D1");
         nomorkursi = jButton33.getText();
         hargafix = simpanhargavip;
+        if(jButton33.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton33.setBackground(Color.red);
+                chair.tambahkursi("D1");
+            }
+            else{}
+            
+        }
+        else if(jButton33.getBackground().equals(Color.red)){
+            jButton33.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D1");
+        }
     }//GEN-LAST:event_jButton33ActionPerformed
 
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
@@ -650,6 +1223,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D2");
         nomorkursi = jButton34.getText();
         hargafix = simpanhargavip;
+        if(jButton34.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton34.setBackground(Color.red);
+                chair.tambahkursi("D2");
+            }
+            else{}
+            
+        }
+        else if(jButton34.getBackground().equals(Color.red)){
+            jButton34.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D2");
+        }
     }//GEN-LAST:event_jButton34ActionPerformed
 
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
@@ -657,6 +1246,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D3");
         nomorkursi = jButton35.getText();
         hargafix = simpanhargavip;
+        if(jButton35.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton35.setBackground(Color.red);
+                chair.tambahkursi("D3");
+            }
+            else{}
+            
+        }
+        else if(jButton35.getBackground().equals(Color.red)){
+            jButton35.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D3");
+        }
     }//GEN-LAST:event_jButton35ActionPerformed
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
@@ -664,6 +1269,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D4");
         nomorkursi = jButton36.getText();
         hargafix = simpanhargavip;
+        if(jButton36.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton36.setBackground(Color.red);
+                chair.tambahkursi("D4");
+            }
+            else{}
+            
+        }
+        else if(jButton36.getBackground().equals(Color.red)){
+            jButton36.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D4");
+        }
     }//GEN-LAST:event_jButton36ActionPerformed
 
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
@@ -671,6 +1292,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D5");
         nomorkursi = jButton28.getText();
         hargafix = simpanhargavip;
+        if(jButton28.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton28.setBackground(Color.red);
+                chair.tambahkursi("D5");
+            }
+            else{}
+            
+        }
+        else if(jButton28.getBackground().equals(Color.red)){
+            jButton28.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D5");
+        }
     }//GEN-LAST:event_jButton28ActionPerformed
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
@@ -678,6 +1315,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D6");
         nomorkursi = jButton29.getText();
         hargafix = simpanhargavip;
+        if(jButton29.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton29.setBackground(Color.red);
+                chair.tambahkursi("D6");
+            }
+            else{}
+            
+        }
+        else if(jButton29.getBackground().equals(Color.red)){
+            jButton29.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D6");
+        }
     }//GEN-LAST:event_jButton29ActionPerformed
 
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
@@ -685,6 +1338,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D7");
         nomorkursi = jButton30.getText();
         hargafix = simpanhargavip;
+        if(jButton30.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton30.setBackground(Color.red);
+                chair.tambahkursi("D7");
+            }
+            else{}
+            
+        }
+        else if(jButton30.getBackground().equals(Color.red)){
+            jButton30.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D7");
+        }
     }//GEN-LAST:event_jButton30ActionPerformed
 
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
@@ -692,6 +1361,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D8");
         nomorkursi = jButton31.getText();
         hargafix = simpanhargavip;
+        if(jButton31.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton31.setBackground(Color.red);
+                chair.tambahkursi("D8");
+            }
+            else{}
+            
+        }
+        else if(jButton31.getBackground().equals(Color.red)){
+            jButton31.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D8");
+        }
     }//GEN-LAST:event_jButton31ActionPerformed
 
     private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
@@ -699,6 +1384,22 @@ public class PilihKursi extends javax.swing.JFrame {
         jTextField1.setText("Anda Memesan D9");
         nomorkursi = jButton32.getText();
         hargafix = simpanhargavip;
+        if(jButton32.getBackground().equals(Color.GREEN)){
+            
+            if(counter>0)
+            {
+                counter-=1;
+                jButton32.setBackground(Color.red);
+                chair.tambahkursi("D9");
+            }
+            else{}
+            
+        }
+        else if(jButton32.getBackground().equals(Color.red)){
+            jButton32.setBackground(Color.GREEN);
+            counter+= 1;
+            chair.hapuskursi("D9");
+        }
     }//GEN-LAST:event_jButton32ActionPerformed
 
     /**

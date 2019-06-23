@@ -4,11 +4,14 @@
  * and open the template in the editor.
  */
 package GUI;
+
 import Classes.Sinopsis;
 import Classes.Judul;
 import Classes.Harga;
 import Classes.HargaVip;
-
+import Classes.ArrayKursi;
+import javax.swing.JOptionPane;
+//import Classes.Jumlah;
 
 /**
  *
@@ -19,21 +22,22 @@ public class SinopsisFilm extends javax.swing.JFrame {
     /**
      * Creates new form SinopsisFilm
      */
-    
     //String yang nantinya untuk mengambil nilai judul, harga, hargavip, dan sinopsis
     //Butuh Clas yang menampung judul, harga, hargavip, dan sinopsis
     private String judul;
+    private int jumlah;
     private String harga;
     private String hargavip;
     private String sinopsis;
-    
+    private ArrayKursi chair = new ArrayKursi();
+
     //objek untuk mengambil isi array di Kelas sinopsis Package Classes
     Sinopsis sin = new Sinopsis();
     Judul jud = new Judul();
+    //Jumlah jum = new Jumlah();
     Harga har = new Harga();
     HargaVip harV = new HargaVip();
 
-    
     public SinopsisFilm() {
         initComponents();
         setLocationRelativeTo(this);
@@ -67,6 +71,8 @@ public class SinopsisFilm extends javax.swing.JFrame {
         jTextArea1 = new javax.swing.JTextArea();
         jButton5 = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -125,19 +131,25 @@ public class SinopsisFilm extends javax.swing.JFrame {
 
         jLabel5.setText("Judul");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(333, 93, 60, 14);
+        jLabel5.setBounds(330, 90, 60, 14);
+
+        jTextField1.setEditable(false);
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(425, 90, 140, 20);
+        jTextField1.setBounds(420, 90, 140, 20);
+
+        jTextField2.setEditable(false);
         getContentPane().add(jTextField2);
         jTextField2.setBounds(445, 169, 120, 20);
 
         jLabel6.setText("Harga");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(333, 172, 50, 14);
+
+        jTextField3.setEditable(false);
         getContentPane().add(jTextField3);
         jTextField3.setBounds(445, 197, 120, 20);
 
-        jLabel7.setText("VIP");
+        jLabel7.setText("ECO");
         getContentPane().add(jLabel7);
         jLabel7.setBounds(393, 172, 34, 14);
 
@@ -147,8 +159,9 @@ public class SinopsisFilm extends javax.swing.JFrame {
 
         jLabel9.setText("Sinopsis");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(333, 197, 50, 14);
+        jLabel9.setBounds(330, 250, 50, 14);
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
@@ -169,6 +182,18 @@ public class SinopsisFilm extends javax.swing.JFrame {
         getContentPane().add(jLabel11);
         jLabel11.setBounds(60, 200, 110, 130);
 
+        jLabel2.setText("Jumlah");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(330, 120, 50, 14);
+
+        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField4);
+        jTextField4.setBounds(420, 120, 140, 20);
+
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/ini 2.jpeg"))); // NOI18N
         getContentPane().add(jLabel10);
         jLabel10.setBounds(0, 0, 580, 390);
@@ -178,13 +203,19 @@ public class SinopsisFilm extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        judul = jTextField1.getText();
-        harga = jTextField2.getText();
-        hargavip = jTextField3.getText();
-        sinopsis = jTextArea1.getText();
-        PilihKursi kursi = new PilihKursi(judul,harga,hargavip);
-        kursi.setVisible(true);
-        this.dispose();
+        if (jTextField4.getText().isEmpty()) {
+            JOptionPane.showMessageDialog(null, "Data belum lengkap");
+        } else {
+            judul = jTextField1.getText();
+            jumlah = Integer.parseInt(jTextField4.getText());
+            harga = jTextField2.getText();
+            hargavip = jTextField3.getText();
+            sinopsis = jTextArea1.getText();
+            PilihKursi kursi = new PilihKursi(judul, jumlah, harga, hargavip);
+            kursi.setVisible(true);
+            this.dispose();
+        }
+
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -192,6 +223,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm());
         jTextField1.setText(jud.getJudulfilm());
+        //jTextField4.setText(jum.getJumlahTiket());
         //memanggil array pada kelas Harga dan HargaVip
         jTextField2.setText(har.getHargafilm());
         jTextField3.setText(harV.getHargafilm());
@@ -202,6 +234,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm1());
         jTextField1.setText(jud.getJudulfilm1());
+        //jTextField4.setText(jum.JumlahTiket1());
         jTextField2.setText(har.getHargafilm1());
         jTextField3.setText(harV.getHargafilm1());
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -211,6 +244,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm2());
         jTextField1.setText(jud.getJudulfilm2());
+        //jTextField4.setText(jum.JumlahTiket2());
         jTextField2.setText(har.getHargafilm2());
         jTextField3.setText(harV.getHargafilm2());
     }//GEN-LAST:event_jButton3ActionPerformed
@@ -220,9 +254,14 @@ public class SinopsisFilm extends javax.swing.JFrame {
         //mengambil isi array dan menampilkan ke text area
         jTextArea1.setText(sin.getSinopsisfilm3());
         jTextField1.setText(jud.getJudulfilm3());
+        //jTextField4.setText(jum.JumlahTiket3());
         jTextField2.setText(har.getHargafilm3());
         jTextField3.setText(harV.getHargafilm3());
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -269,6 +308,7 @@ public class SinopsisFilm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -281,5 +321,6 @@ public class SinopsisFilm extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
     // End of variables declaration//GEN-END:variables
 }

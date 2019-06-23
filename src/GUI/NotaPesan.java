@@ -5,6 +5,8 @@
  */
 package GUI;
 
+import Classes.ArrayKursi;
+import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 /**
@@ -12,15 +14,18 @@ import javax.swing.JOptionPane;
  * @author Yulisha
  */
 public class NotaPesan extends javax.swing.JFrame {
-
-    /**
-     * Creates new form NotaPesan
-     */
-    public NotaPesan(String judul, String hargafix, String nomorkursi) {
+    int total;
+    ArrayKursi chair;
+    public NotaPesan(String judul, int jumlah, String simpanharga, String simpanhargavip, String nomorkursi, ArrayKursi chair) {
         initComponents();
         setLocationRelativeTo(this);
-        jTextArea1.setText("ALWINEMAX\n\n\nJudul Film\t= "+judul+"\n\nHarga\t= "+hargafix+"\n\nKursi\t= "+nomorkursi+"\n\n\nTerima Kasih");
-        
+        this.chair = chair;
+        chair.setHarga(Integer.parseInt(simpanharga));
+        chair.setHargaVip(Integer.parseInt(simpanhargavip));
+        jTextArea1.setText("ALWINEMAX\n\n\nJudul Film\t\t\n= "+judul+"\n\nHarga\t\t\n= "+chair.getTotal()+"\nKursi yg anda pesan\t= \n"+chair.getKursi()+"\n\n\nTerima Kasih");
+        //jTextArea1.setText("Total");
+        //int harga = 0;
+        //total=(harga*jumlah);
     }
 
     public NotaPesan() {

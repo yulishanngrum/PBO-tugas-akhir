@@ -42,7 +42,7 @@ public class TampilanAwal extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(434, 316, 111, 43);
+        jButton1.setBounds(400, 320, 160, 30);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/tampilan pertama.jpeg"))); // NOI18N
         getContentPane().add(jLabel1);
