@@ -93,45 +93,51 @@ public class SinopsisFilm extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(65, 39, 110, 123);
 
-        jButton1.setText("Info");
+        jButton1.setFont(new java.awt.Font("Segoe UI Emoji", 1, 12)); // NOI18N
+        jButton1.setText("INFO");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(65, 168, 60, 23);
+        jButton1.setBounds(75, 168, 90, 23);
 
-        jButton2.setText("Info");
+        jButton2.setFont(new java.awt.Font("Segoe UI Emoji", 1, 12)); // NOI18N
+        jButton2.setText("INFO");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(205, 168, 60, 23);
+        jButton2.setBounds(215, 168, 90, 23);
 
-        jButton3.setText("Info");
+        jButton3.setFont(new java.awt.Font("Segoe UI Emoji", 1, 12)); // NOI18N
+        jButton3.setText("INFO");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(65, 338, 60, 23);
+        jButton3.setBounds(65, 338, 90, 23);
 
-        jButton4.setText("Info");
+        jButton4.setFont(new java.awt.Font("Segoe UI Emoji", 1, 12)); // NOI18N
+        jButton4.setText("INFO");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(205, 338, 60, 23);
+        jButton4.setBounds(205, 338, 90, 23);
 
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Judul");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(330, 90, 60, 14);
+        jLabel5.setBounds(330, 90, 60, 15);
 
         jTextField1.setEditable(false);
         getContentPane().add(jTextField1);
@@ -141,50 +147,62 @@ public class SinopsisFilm extends javax.swing.JFrame {
         getContentPane().add(jTextField2);
         jTextField2.setBounds(445, 169, 120, 20);
 
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Harga");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(333, 172, 50, 14);
+        jLabel6.setBounds(333, 172, 50, 15);
 
         jTextField3.setEditable(false);
         getContentPane().add(jTextField3);
         jTextField3.setBounds(445, 197, 120, 20);
 
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("ECO");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(393, 172, 34, 14);
+        jLabel7.setBounds(393, 172, 34, 15);
 
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("VIP2");
         getContentPane().add(jLabel8);
-        jLabel8.setBounds(393, 200, 34, 14);
+        jLabel8.setBounds(393, 200, 34, 15);
 
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Sinopsis");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(330, 250, 50, 14);
+        jLabel9.setBounds(330, 250, 50, 15);
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Mongolian Baiti", 0, 13)); // NOI18N
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(399, 250, 166, 96);
+        jScrollPane1.setBounds(385, 250, 180, 86);
 
-        jButton5.setText("Pesan");
+        jButton5.setFont(new java.awt.Font("Swis721 Lt BT", 1, 12)); // NOI18N
+        jButton5.setText("PESAN");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton5);
-        jButton5.setBounds(480, 350, 80, 23);
+        jButton5.setBounds(480, 360, 80, 23);
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/alad1.png"))); // NOI18N
         getContentPane().add(jLabel11);
         jLabel11.setBounds(60, 200, 110, 130);
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Jumlah");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(330, 120, 50, 14);
+        jLabel2.setBounds(330, 120, 50, 15);
 
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,9 +212,10 @@ public class SinopsisFilm extends javax.swing.JFrame {
         getContentPane().add(jTextField4);
         jTextField4.setBounds(420, 120, 140, 20);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/ini 2.jpeg"))); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\YULISHA\\Documents\\NetBeansProjects\\PBO-tugas-akhir\\src\\Pict\\bioskop.jpg")); // NOI18N
         getContentPane().add(jLabel10);
-        jLabel10.setBounds(0, 0, 580, 390);
+        jLabel10.setBounds(-150, 0, 730, 390);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

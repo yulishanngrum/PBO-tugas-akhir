@@ -29,12 +29,14 @@ public class TampilanAwal extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(601, 430));
         getContentPane().setLayout(null);
 
+        jButton1.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jButton1.setText("Buy Tickets Now");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -42,11 +44,17 @@ public class TampilanAwal extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(400, 320, 160, 30);
+        jButton1.setBounds(420, 350, 160, 30);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/tampilan pertama.jpeg"))); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Pristina", 1, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("ALWINE MAX ");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(160, 140, 360, 80);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\YULISHA\\Documents\\NetBeansProjects\\PBO-tugas-akhir\\src\\Pict\\bioskop.jpg")); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 600, 400);
+        jLabel1.setBounds(-150, -40, 790, 460);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -99,5 +107,6 @@ public class TampilanAwal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }

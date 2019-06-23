@@ -31,26 +31,32 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="0"/>
+          <Font name="Segoe UI Black" size="36" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Layar"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="271" y="54" width="50" height="-1"/>
+          <AbsoluteConstraints x="240" y="0" width="110" height="40"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="0"/>
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="VIP"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="284" y="208" width="-1" height="-1"/>
+          <AbsoluteConstraints x="280" y="210" width="40" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -58,6 +64,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="A2"/>
       </Properties>
@@ -75,6 +84,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="A3"/>
       </Properties>
       <Events>
@@ -90,6 +102,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="A4"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -110,6 +125,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="A5"/>
       </Properties>
       <Events>
@@ -125,6 +143,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="A6"/>
       </Properties>
@@ -142,6 +163,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="A7"/>
       </Properties>
       <Events>
@@ -157,6 +181,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="A8"/>
       </Properties>
@@ -174,6 +201,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="A9"/>
       </Properties>
       <Events>
@@ -189,6 +219,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="B5"/>
       </Properties>
@@ -206,6 +239,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="B6"/>
       </Properties>
       <Events>
@@ -221,6 +257,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="B7"/>
       </Properties>
@@ -238,6 +277,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="B8"/>
       </Properties>
       <Events>
@@ -253,6 +295,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="B9"/>
       </Properties>
@@ -270,6 +315,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="B1"/>
       </Properties>
       <Events>
@@ -285,6 +333,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="B2"/>
       </Properties>
@@ -302,6 +353,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="B3"/>
       </Properties>
       <Events>
@@ -317,6 +371,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="B4"/>
       </Properties>
@@ -334,6 +391,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="C5"/>
       </Properties>
       <Events>
@@ -349,6 +409,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="C6"/>
       </Properties>
@@ -366,6 +429,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="C7"/>
       </Properties>
       <Events>
@@ -381,6 +447,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="C8"/>
       </Properties>
@@ -398,6 +467,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="C9"/>
       </Properties>
       <Events>
@@ -413,6 +485,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="C1"/>
       </Properties>
@@ -430,6 +505,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="C2"/>
       </Properties>
       <Events>
@@ -445,6 +523,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="C3"/>
       </Properties>
@@ -462,6 +543,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="C4"/>
       </Properties>
       <Events>
@@ -477,6 +561,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="D5"/>
       </Properties>
@@ -494,6 +581,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="D6"/>
       </Properties>
       <Events>
@@ -509,6 +599,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="D7"/>
       </Properties>
@@ -526,6 +619,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="D8"/>
       </Properties>
       <Events>
@@ -541,6 +637,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="D9"/>
       </Properties>
@@ -558,6 +657,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="D1"/>
       </Properties>
       <Events>
@@ -573,6 +675,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="D2"/>
       </Properties>
@@ -590,6 +695,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="D3"/>
       </Properties>
       <Events>
@@ -606,6 +714,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
         </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="D4"/>
       </Properties>
       <Events>
@@ -619,21 +730,24 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton37">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Pesan"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Square721 BT" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PESAN"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton37ActionPerformed"/>
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="470" y="350" width="80" height="-1"/>
+          <AbsoluteConstraints x="470" y="350" width="90" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField1">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="350" width="171" height="20"/>
+          <AbsoluteConstraints x="20" y="350" width="171" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -641,6 +755,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Swis721 LtEx BT" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="A1"/>
       </Properties>
@@ -653,15 +770,31 @@
         </Constraint>
       </Constraints>
     </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="EKONOMI"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="250" y="60" width="100" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Pict/ini 2.jpeg"/>
+          <Image iconType="2" name="C:\Users\YULISHA\Documents\NetBeansProjects\PBO-tugas-akhir\src\Pict\bioskop.jpg"/>
         </Property>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="590" height="400"/>
+          <AbsoluteConstraints x="-120" y="0" width="710" height="400"/>
         </Constraint>
       </Constraints>
     </Component>

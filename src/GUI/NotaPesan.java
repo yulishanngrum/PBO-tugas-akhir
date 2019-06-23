@@ -22,7 +22,7 @@ public class NotaPesan extends javax.swing.JFrame {
         this.chair = chair;
         chair.setHarga(Integer.parseInt(simpanharga));
         chair.setHargaVip(Integer.parseInt(simpanhargavip));
-        jTextArea1.setText("ALWINEMAX\n\n\nJudul Film\t\t\n= "+judul+"\n\nHarga\t\t\n= "+chair.getTotal()+"\nKursi yg anda pesan\t= \n"+chair.getKursi()+"\n\n\nTerima Kasih");
+        jTextArea1.setText("ALWINEMAX\n\n\nJudul Film\t\t\n= "+judul+"\n\nHarga\t\t\n= "+chair.getTotal()+"\nKursi yg anda pesan \n="+chair.getKursi()+"\n\n\nTerima Kasih");
         //jTextArea1.setText("Total");
         //int harga = 0;
         //total=(harga*jumlah);
@@ -53,13 +53,15 @@ public class NotaPesan extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Mongolian Baiti", 1, 14)); // NOI18N
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(24, 27, 278, 347);
 
-        jButton1.setText("Print");
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setText("PRINT");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -68,9 +70,9 @@ public class NotaPesan extends javax.swing.JFrame {
         getContentPane().add(jButton1);
         jButton1.setBounds(338, 344, 98, 30);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pict/terakhir.jpeg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\YULISHA\\Documents\\NetBeansProjects\\PBO-tugas-akhir\\src\\Pict\\bioskop.jpg")); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 470, 400);
+        jLabel1.setBounds(-100, 0, 570, 400);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
